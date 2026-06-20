@@ -22,8 +22,6 @@ Top fraud signals (feature importance): V14, V4, V10, V17, V12 dominate — thes
 Step 6 — Tune the decision threshold
 The 0.5 cutoff isn't necessarily optimal — in production you'd tune this based on the real cost of a missed fraud vs. a false alarm
 
-<img width="776" height="316" alt="Screen Shot 2026-06-20 at 6 11 24 PM" src="https://github.com/user-attachments/assets/00b3a9ef-3ea2-4f36-8ae9-0cd2c7bed63c" />
-
 
 
 
@@ -31,9 +29,4 @@ The 0.5 cutoff isn't necessarily optimal — in production you'd tune this based
 
 
 This is the real lever in a fraud system: lower the threshold to catch more fraud at the cost of more false alarms (more customer friction), or raise it to only flag near-certain fraud (less friction, more fraud slips through). The right point depends on your cost of a missed fraud vs. cost of a false decline.
-
-
-
-
-
 
