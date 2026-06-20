@@ -22,6 +22,7 @@ Top fraud signals (feature importance): V14, V4, V10, V17, V12 dominate — thes
 Step 6 — Tune the decision threshold
 The 0.5 cutoff isn't necessarily optimal — in production you'd tune this based on the real cost of a missed fraud vs. a false alarm
 
+![image alt](https://github.com/Frankynuel/Credit-card-fraud-detection/blob/53f6fa59620d0397703c622315d121bfb9e1987d/Screen%20Shot%202026-06-20%20at%206.11.24%20PM.png)
 
 
 
